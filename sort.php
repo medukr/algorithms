@@ -119,8 +119,7 @@ function test(string $method):void{
 }
 
 function assert_test(string $method,array $from,array $to):void{
-    $result = $method($from);
-    echo $result == $to ? '.' : '|';
+    echo $method($from) == $to ? '.' : '|';
 }
 
 function speed_test($method){
