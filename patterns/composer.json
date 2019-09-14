@@ -1,0 +1,17 @@
+{
+    "name": "andrii/patterns",
+    "authors": [
+        {
+            "name": "medukr",
+            "email": "andrii.demydyuk@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "observer\\": "observer"
+        }
+    }
+}
